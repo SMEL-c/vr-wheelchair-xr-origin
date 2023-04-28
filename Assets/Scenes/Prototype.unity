@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -327,6 +327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385778184}
   - component: {fileID: 385778183}
+  - component: {fileID: 385778185}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -411,6 +412,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &385778185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385778182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &428217559
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,10 +2636,98 @@ PrefabInstance:
       propertyPath: m_Name
       value: VRWC Wheelchair Rig (Action-based, Room-scale)
       objectReference: {fileID: 0}
+    - target: {fileID: 3355997934936558554, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_Id
+      value: 34a163bf-7dd6-441a-a684-d320d4c3d7bb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997934936558554, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_Name
+      value: Tracking State Input
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Id
+      value: 16e02d5e-7a83-43e5-ab13-12809e1d85c2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Id
+      value: eb982ca9-82ff-4164-a6fa-0575d6942d02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Id
+      value: 4964df4f-43df-40fc-ac9a-e329fbd62174
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Name
+      value: Select Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Id
+      value: ac045e4a-88fb-4bc9-9fb0-7c3fd47221e3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Name
+      value: UI Press Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Name
+      value: Activate Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Name
+      value: Tracking State
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: b076cdca-dd14-4a63-b03b-1b0343f4ad47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
+      objectReference: {fileID: 0}
     - target: {fileID: 3355997935585448725, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 977799266}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Id
+      value: 79b8d574-be29-4e6c-89fe-2b50ca83ed63
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Id
+      value: ed22c122-145c-43e4-9d08-039e49005ee8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Id
+      value: 5c846605-cd64-40f4-a2aa-98b899302d3c
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Name
+      value: Select Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Id
+      value: 1575918b-cc9c-492e-814b-992e20a67520
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Name
+      value: UI Press Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Name
+      value: Activate Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Name
+      value: Tracking State
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: 8281ead3-908d-449a-a936-dd619a5289e0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
+      value: Directional Anchor Rotation
+      objectReference: {fileID: 0}
     - target: {fileID: 3355997935591170774, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
       propertyPath: m_InteractionManager
       value: 
